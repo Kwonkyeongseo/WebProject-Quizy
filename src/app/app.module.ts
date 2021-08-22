@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MainformComponent } from './mainform/mainform.component';
+import { MenubarComponent } from './mainform/menubar/menubar.component';
+import { AdvComponent } from './mainform/adv/adv.component';
+import { QuizComponent } from './mainform/quiz/quiz.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainformComponent
+    MenubarComponent,
+    AdvComponent,
+    QuizComponent,
   ],
   imports: [
     BrowserModule
