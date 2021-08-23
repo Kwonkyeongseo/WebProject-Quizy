@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+ /* .app-name {
+    font-size: 40px;
+    width: 120px;
+    height: 55px;
+    font-family: 'Bahnschrift SemiBold', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    background-color: #954ECA;
+    border: none;
+    outline: none;
+} */
+
+/* .btn{
+    font-size: 17px;
+    margin-right: 25px;
+    color: black;
+    background-color: red;
+    border: none;
+    outline: none;
+} */
+
+.navbar{
+    max-width: auto;
+    height: 55px;
+    margin: auto;
+    background-color: white;
+}
+
+/* 테스트 */
+
+.app-name {
+    font-size: 40px;
+    width: 120px;
+    height: 60px;
+    float: left;
+    background-color: purple;
+    border-style: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    /* padding: 0px 5px 5px 5px; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+    border: none;
+    outline: none;
+   
+}
+
+.app-name :before {
+    content: counter(bc) "_";
+    position: absolute;
+    
+}
+
+/* @media screen and (max-width: 1260px) {
+    .app-name  {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .app-name  {
+        width: 100%;
+    }
+} */
+
+.b01_simple_rollover {
+    color: white;
+    border: #000000 solid 0px;
+    padding: 10px;
+    background-color: #9979c1;
+}
+
+.b01_simple_rollover:hover {
+    color: black;
+    background-color: #DCCBED;
+}
